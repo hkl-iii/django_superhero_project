@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/dj_s.iml" filepath="$PROJECT_DIR$/.idea/dj_s.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../dj_s/.idea/dj_s.iml" filepath="$PROJECT_DIR$/../dj_s/.idea/dj_s.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/django_superhero_project.iml" filepath="$PROJECT_DIR$/.idea/django_superhero_project.iml" />
     </modules>
   </component>
 </project>
