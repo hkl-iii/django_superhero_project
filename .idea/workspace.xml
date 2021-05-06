@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="07b039bb-a7e7-48ea-9d95-e5c112e1ded7" name="Default Changelist" comment="&quot;deleted dj_s dir&quot;" />
+    <list default="true" id="07b039bb-a7e7-48ea-9d95-e5c112e1ded7" name="Default Changelist" comment="&quot;trying to fix managepy runserver access&quot;" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,9 +12,42 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="django_debugger" type="PythonConfigurationType" factoryName="Python">
+      <module name="django_superhero_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Harvey\OneDrive\DevCodeCamp\week-6\django_superhero_project\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2">
+        <option name="LaunchBrowser.Before.Run" url="http://127.0.0.1:8000/" />
+      </method>
+    </configuration>
   </component>
   <component name="TaskManager">
+    <task id="LOCAL-00001" summary="&quot;trying to fix managepy runserver access&quot;">
+      <created>1620261090867</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1620261090867</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -28,5 +61,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;trying to fix managepy runserver access&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;trying to fix managepy runserver access&quot;" />
   </component>
 </project>
