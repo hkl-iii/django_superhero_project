@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="07b039bb-a7e7-48ea-9d95-e5c112e1ded7" name="Default Changelist" comment="&quot;moved workspacexml&quot;">
+    <list default="true" id="07b039bb-a7e7-48ea-9d95-e5c112e1ded7" name="Default Changelist" comment="&quot;fixed admin file in order to access managepy runserver command&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django_superhero_project/superheroes/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_superhero_project/superheroes/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_superhero_project/superheroes/templates/superheroes/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/django_superhero_project/superheroes/templates/superheroes/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_superhero_project/superheroes/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_superhero_project/superheroes/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_superhero_project/superheroes/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_superhero_project/superheroes/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +15,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProjectId" id="1sAdhFlAlZ0p5XxQlc7vo0BosLU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
@@ -26,7 +35,7 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="C:\Users\Harvey\OneDrive\DevCodeCamp\week-6\django_superhero_project\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -38,10 +47,11 @@
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
       <method v="2">
-        <option name="LaunchBrowser.Before.Run" url="http://127.0.0.1:8000/" />
+        <option name="LaunchBrowser.Before.Run" url="http://127.0.0.1:8000/admin" />
       </method>
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task id="LOCAL-00001" summary="&quot;trying to fix managepy runserver access&quot;">
       <created>1620261090867</created>
@@ -57,7 +67,21 @@
       <option name="project" value="LOCAL" />
       <updated>1620262847070</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="&quot;fixed admin file in order to access managepy runserver command&quot;">
+      <created>1620319109618</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1620319109618</updated>
+    </task>
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="07b039bb-a7e7-48ea-9d95-e5c112e1ded7" name="Default Changelist" comment="&quot;fixed admin file in order to access managepy runserver command&quot;" />
+      <created>1620319452829</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1620319452829</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -75,6 +99,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;trying to fix managepy runserver access&quot;" />
     <MESSAGE value="&quot;moved workspacexml&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;moved workspacexml&quot;" />
+    <MESSAGE value="&quot;fixed admin file in order to access managepy runserver command&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;fixed admin file in order to access managepy runserver command&quot;" />
   </component>
 </project>

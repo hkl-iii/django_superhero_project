@@ -9,5 +9,11 @@
 </head>
 <body>
 <h1>This is a templated view!</h1>
+<ul>
+    {% for superhero in all_superheroes %}
+    <li><h2> {{superhero.name}}</h2>
+    <a href ="{% url 'superheroes:detail' superhero.id %}">See more info</a></li>
+    {% endfor %}
+</ul>
 </body>
 </html>
