@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="07b039bb-a7e7-48ea-9d95-e5c112e1ded7" name="Default Changelist" comment="&quot;fixed createhtml file&quot;">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django_superhero_project/superheroes/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_superhero_project/superheroes/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django_superhero_project/superheroes/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_superhero_project/superheroes/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django_superhero_project/superheroes/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_superhero_project/superheroes/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="07b039bb-a7e7-48ea-9d95-e5c112e1ded7" name="Default Changelist" comment="&quot;fixed small issues with views and models files&quot;" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -117,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620523651858</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="&quot;fixed small issues with views and models files&quot;">
+      <created>1620524346667</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1620524346667</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -140,6 +142,7 @@
     <MESSAGE value="&quot;on django web app tut completed pg 18&quot;" />
     <MESSAGE value="&quot;completed first part of page 19. will return to previous page to fix mistakes&quot;" />
     <MESSAGE value="&quot;fixed createhtml file&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;fixed createhtml file&quot;" />
+    <MESSAGE value="&quot;fixed small issues with views and models files&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;fixed small issues with views and models files&quot;" />
   </component>
 </project>
