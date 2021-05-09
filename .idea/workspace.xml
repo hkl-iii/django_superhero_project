@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="07b039bb-a7e7-48ea-9d95-e5c112e1ded7" name="Default Changelist" comment="&quot;fixed admin file in order to access managepy runserver command&quot;">
+    <list default="true" id="07b039bb-a7e7-48ea-9d95-e5c112e1ded7" name="Default Changelist" comment="&quot;added line 15 to indexhtml file from web app tut pg 17&quot;">
+      <change afterPath="$PROJECT_DIR$/django_superhero_project/superheroes/templates/superheroes/create.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django_superhero_project/superheroes/templates/superheroes/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/django_superhero_project/superheroes/templates/superheroes/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/django_superhero_project/superheroes/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_superhero_project/superheroes/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/django_superhero_project/superheroes/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_superhero_project/superheroes/views.py" afterDir="false" />
     </list>
@@ -11,6 +11,13 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -22,6 +29,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -81,7 +89,14 @@
       <option name="presentableId" value="Default" />
       <updated>1620319452829</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="&quot;added line 15 to indexhtml file from web app tut pg 17&quot;">
+      <created>1620518789771</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1620518789771</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -100,6 +115,7 @@
     <MESSAGE value="&quot;trying to fix managepy runserver access&quot;" />
     <MESSAGE value="&quot;moved workspacexml&quot;" />
     <MESSAGE value="&quot;fixed admin file in order to access managepy runserver command&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;fixed admin file in order to access managepy runserver command&quot;" />
+    <MESSAGE value="&quot;added line 15 to indexhtml file from web app tut pg 17&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;added line 15 to indexhtml file from web app tut pg 17&quot;" />
   </component>
 </project>
