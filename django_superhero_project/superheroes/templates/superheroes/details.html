@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <title>SyperHero</title>
 </head>
 
 <body>
@@ -32,26 +32,23 @@
                 </li>
         </div>
     </nav>
-    <h1>This is a templated view!</h1>
-    {% if messages %}
-    <!-- Start alert Message area -->
-    <div class="alert alert-info" role="alert">
-        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
-
-        {% for message in messages %}
-        {{ message }}
-        {% endfor %}
-
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1>SuperHero details</h1>
+                {{hero.name}}<br>
+                {{hero.genre}}<br>
+                {{hero.runtime}}<br>
+                {{hero.release_date}}<br>
+                _______________________________________<br>
+                <a type="submit" class="btn btn-danger"
+                    href="{% url 'superheroes:delete_superhero' hero.id %}">delete</a>
+                <a type="submit" class="btn btn-secondary"
+                    href="{% url 'superheroes:edit_superhero' hero.id %}">edit</a>
+            </div>
+        </div>
     </div>
-    {% endif %}
-    <ul>
-        {% for superhero in all_superheroes %}
-        <li>
-            <h2> {{superhero.name}}</h2>
-            <a href="{% url 'superheroes:detail' superhero.id %}">See more info</a>
-        </li>
-        {% endfor %}
-    </ul>
+
 
 
 

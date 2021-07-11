@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 """
 
 from pathlib import Path
-
+import os
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -25,7 +25,7 @@ SECRET_KEY = '&xb7+qiql3e66$31%@t=4z%2)er0g*yg(fm(#i%5e6ewav%-m0'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -73,20 +73,29 @@ WSGI_APPLICATION = 'django_superhero_project.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
-
-DATABASES = {
+if DEBUG:
+    DATABASES = {
     'default': {
-        'ENGINE': 'mysql.connector.django',
-        'NAME': 'superhero_db',
-        'USER': 'root',
-        'PASSWORD': 'devcodecampstudent',
-        'HOST': '127.0.0.1',
-        'PORT': '3306',
-        'OPTIONS': {
-            'autocommit': True
-        }
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+else:
+
+    DATABASES = {
+        'default': {
+            'ENGINE': 'mysql.connector.django',
+            'NAME': 'superhero_db',
+            'USER': 'root',
+            'PASSWORD': 'devcodecampstudent',
+            'HOST': '127.0.0.1',
+            'PORT': '3306',
+            'OPTIONS': {
+                'autocommit': True
+            }
+        }
+    }
+
 
 
 # Password validation
@@ -126,3 +135,12 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'django_superhero_project/static'),
+]
